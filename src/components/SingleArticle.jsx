@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import {useParams} from 'react-router-dom';
 import { getArticlesById } from '../api';
+import { CommentList } from './CommentLIst';
 
 
 export const SingleArticle = () => {
@@ -14,6 +15,7 @@ export const SingleArticle = () => {
     }, [articleId])
 
     return (
+        <>
         <div className='article-card'>
             <h2>{singleArticle.title}</h2>
             <h3>By {singleArticle.author} in {singleArticle.topic}</h3>
@@ -22,5 +24,7 @@ export const SingleArticle = () => {
             <p>Votes: {singleArticle.votes}</p>
             <p>Comment Count: {singleArticle.comment_count}</p>
         </div>
+        <CommentList articleId={articleId}/>
+        </>
     )
 }
