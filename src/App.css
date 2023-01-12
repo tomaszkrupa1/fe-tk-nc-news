@@ -21,3 +21,13 @@
   padding: 1em;
   font-size: 1rem;
 }
+
+.comment-card {
+  text-align: left;
+  float: left;
+  background-color: rgb(235, 169, 255);
+  outline-style: auto;
+  outline-color: rgb(138, 49, 255);
+  padding: 1em;
+  font-size: 1rem;
+}
