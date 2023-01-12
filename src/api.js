@@ -21,3 +21,9 @@ export const getCommentsByArticleId = (articleId) => {
     return res.data.comments;
   });
 };
+
+export const patchVote = (article_id, vote) => {
+  return myApi.patch(`/api/articles/${article_id}`, {"inc_votes":vote} ).then((res) => {
+      return res;
+    });
+}
