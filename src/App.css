@@ -4,22 +4,28 @@
 
 
 .header {
-  background-color: #bbffae;
-  align-items: center;
-  justify-content: center;
+  background-color: #232323;
+  color: white;
+  text-decoration: none;
   font-size: calc(10px + 2vmin);
-  text-align: center;
+  text-align: left;
+  padding: 10px 30px;
   height: 3rem;
 }
 
 .article-card {
+  content: flex;
+  justify-content: center;
   text-align: left;
   float: left;
-  background-color: rgb(255, 143, 143);
-  outline-style: auto;
-  outline-color: red;
+  background-color: #232323;
   padding: 1em;
   font-size: 1rem;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  color: rgb(255, 255, 255);
+  width: 80%;
+  min-width: 580px;
 }
 
 .comment-card {
@@ -30,4 +36,9 @@
   outline-color: rgb(138, 49, 255);
   padding: 1em;
   font-size: 1rem;
+}
+
+.article-stats {
+  display: flex;
+  justify-content: flex;
 }

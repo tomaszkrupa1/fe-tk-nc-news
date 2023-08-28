@@ -7,7 +7,6 @@ import { SingleArticle } from "./components/SingleArticle";
 function App() {
   return (
     <div className="App">
-      <header></header>
       <Header />
       <Routes>
         <Route path="/" element={<ArticleList />}></Route>
