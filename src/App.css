@@ -1,31 +1,34 @@
 .App {
   text-align: center;
+  background-color: #1b1b1b;
 }
 
 
 .header {
-  background-color: #232323;
+  background-color: #292929;
   color: white;
   text-decoration: none;
   font-size: calc(10px + 2vmin);
+  font-weight: 600;
   text-align: left;
   padding: 10px 30px;
   height: 3rem;
 }
 
 .article-card {
-  content: flex;
-  justify-content: center;
+  padding-top: 0;
   text-align: left;
-  float: left;
-  background-color: #232323;
-  padding: 1em;
+  background-color: #292929;
+  padding: 10px 25px;
   font-size: 1rem;
   border-radius: 20px;
   margin-bottom: 10px;
   color: rgb(255, 255, 255);
   width: 80%;
   min-width: 580px;
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .comment-card {
@@ -41,4 +44,36 @@
 .article-stats {
   display: flex;
   justify-content: flex;
+}
+
+.article-body {
+  font-weight: 300;
+}
+
+.article-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.article-title {
+  font-weight: 500;
+}
+
+.article-by {
+  font-weight: 400;
+  font-size: 0.8rem;
+  text-align: center;
+  background-color: #1c1c1c;
+  border-radius: 10px;
+  padding:10px;
+  
+}
+
+
+.article-list {
+  display: "flex";
+align-items: "center"; justify-content: "center"; 
+}
+Link {
+  text-decoration: none;
 }
