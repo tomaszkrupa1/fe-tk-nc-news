@@ -4,9 +4,9 @@ SEEN it is a Reddit inspired forum website where users can share and interact wi
 
 ## Set Up
 
-Live version available [here](https://64ab1e70803f816302e0bd9b--lambent-tulumba-726cb0.netlify.app/)
+Live version available [here](https://lambent-tulumba-726cb0.netlify.app)
 
-URL: [www.64ab1e70803f816302e0bd9b--lambent-tulumba-726cb0.netlify.app/](https://64ab1e70803f816302e0bd9b--lambent-tulumba-726cb0.netlify.app/)
+URL: [https://lambent-tulumba-726cb0.netlify.app](https://lambent-tulumba-726cb0.netlify.app)
 
 To run locally
 
