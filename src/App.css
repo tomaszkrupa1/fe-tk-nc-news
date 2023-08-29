@@ -16,6 +16,7 @@
 }
 
 .article-card {
+  margin-top: 40px;
   padding-top: 0;
   text-align: left;
   background-color: #292929;
@@ -32,13 +33,19 @@
 }
 
 .comment-card {
+  padding-top: 0;
   text-align: left;
-  float: left;
-  background-color: rgb(235, 169, 255);
-  outline-style: auto;
-  outline-color: rgb(138, 49, 255);
-  padding: 1em;
+  background-color: #292929;
+  padding: 10px 25px;
   font-size: 1rem;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  color: rgb(255, 255, 255);
+  width: 80%;
+  min-width: 580px;
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .article-stats {
@@ -73,7 +80,4 @@
 .article-list {
   display: "flex";
 align-items: "center"; justify-content: "center"; 
-}
-Link {
-  text-decoration: none;
 }
