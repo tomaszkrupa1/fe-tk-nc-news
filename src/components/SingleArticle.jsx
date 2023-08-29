@@ -16,14 +16,18 @@ export const SingleArticle = () => {
 
     return (
         <>
-        <div className='article-card'>
-            <h2>{singleArticle.title}</h2>
-            <h3>By {singleArticle.author} in {singleArticle.topic}</h3>
+        <article className='article-card'>
+            <div className="article-header">
+            <h2 className="article-title">{singleArticle.title}</h2>
+            <h3 className="article-by">By {singleArticle.author} in {singleArticle.topic}</h3>
+            </div>
             <h4>{singleArticle.body}</h4>
             <p>Created At: {singleArticle.created_at}</p>
+            <div className="article-stats">
             <p>Votes: {singleArticle.votes}</p>
             <p>Comment Count: {singleArticle.comment_count}</p>
-        </div>
+            </div>
+        </article>
         <CommentList articleId={articleId}/>
         </>
     )
